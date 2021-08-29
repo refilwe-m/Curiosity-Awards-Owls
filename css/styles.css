@@ -24,8 +24,8 @@ a{
 
 /*H E A D E R*/
 header {
-  color: var(--font-color);
-  background-image:url(../images/bg.jpg);
+  color: var(--bg-color);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(../images/bg.jpg);
   background-size:100%;
   padding: 80px 0;
   text-align: center;
@@ -43,7 +43,7 @@ margin: 0 0 16px 0;
 .myDiv {
   margin: 0 auto;
   padding: 0 20px 0 20px;
-  height: 45vh;
+  height: 70vh;
 }
 .btn {
   display: inline-block;
